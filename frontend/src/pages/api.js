@@ -17,3 +17,4 @@ export const verifyOTP = async (otpData) => {
   });
   return res.json();
 };
+ 
