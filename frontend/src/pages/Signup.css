@@ -1,0 +1,90 @@
+/* Signup.css */
+
+/* Center the signup form on the page */
+.signup-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Heading style */
+.signup-container h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Input fields */
+.signup-container input {
+  width: 90%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Input focus effect */
+.signup-container input:focus {
+  box-shadow: 0 0 10px rgba(255,255,255,0.6);
+  background-color: rgba(255,255,255,0.2);
+  color: #fff;
+}
+
+/* Buttons */
+.signup-container button {
+  width: 95%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+/* Button hover effect */
+.signup-container button:hover {
+  background: linear-gradient(45deg, #ee0979, #ff6a00);
+  transform: translateY(-2px);
+}
+
+/* OTP container */
+.signup-container .otp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-container .otp-container input {
+  width: 60%;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .signup-container {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  .signup-container input, 
+  .signup-container button {
+    width: 100%;
+  }
+}
